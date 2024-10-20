@@ -1,0 +1,178 @@
+.figure{
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+ animation-name:spin;
+ animation-duration: 3s;
+ animation-iteration-count: infinite;
+ border-radius: 0%;
+}
+ @keyframes spin {
+    0%{
+        transform:rotate(0deg);
+    
+    }
+    35%{
+        background-color: green;
+        border-radius: 35%;
+    }
+    50%
+    {
+    background-color: red;
+    border-radius: 50%;
+    }
+
+    100%{
+        transform:rotate(360deg);
+
+    
+ }
+}
+
+.watermelon {
+    position: relative;
+    top: 80px;
+    left: 430px;
+    width: 400px;
+    height: 180px;
+    background: linear-gradient(0deg,#2C6124,#179245,#3CB42D,#CFF060);
+    border-radius: 0% 0% 200px 200px;
+
+}
+
+.PiaceWatermelon {
+    position: absolute;
+    left: 25px;
+    width: 350px;
+    height: 155px;
+    background-color: red;
+    border-radius: 0% 0% 230px 230px;
+
+}
+.seed1{
+    position:absolute;
+    width: 10px;
+    height: 17px;
+    background-color: black;
+    border-radius: 60% 60% 60% 60%;
+    transform: rotate(30deg);
+    left: 50px;
+    top: 15px;
+}
+.seed2{
+    position:absolute;
+    width: 10px;
+    height: 17px;
+    background-color: black;
+    border-radius: 60% 60% 60% 60%;
+    transform: rotate(30deg);
+    left: 125px;
+    top: 15px;
+}
+.seed3{
+    position:absolute;
+    width: 10px;
+    height: 17px;
+    background-color: black;
+    border-radius: 60% 60% 60% 60%;
+    transform: rotate(30deg);
+    left: 225px;
+    top: 15px;
+}
+.seed4{
+    position:absolute;
+    width: 10px;
+    height: 17px;
+    background-color: black;
+    border-radius: 60% 60% 60% 60%;
+    transform: rotate(30deg);
+    left: 300px;
+    top: 15px;
+}
+.seed5{
+    position:absolute;
+    width: 10px;
+    height: 17px;
+    background-color: black;
+    border-radius: 60% 60% 60% 60%;
+    transform: rotate(30deg);
+    left: 88px;
+    top: 70px;
+}
+.seed6{
+    position:absolute;
+    width: 10px;
+    height: 17px;
+    background-color: black;
+    border-radius: 60% 60% 60% 60%;
+    transform: rotate(30deg);
+    left: 170px;
+    top: 70px;
+}
+.seed7{
+    position:absolute;
+    width: 10px;
+    height: 17px;
+    background-color: black;
+    border-radius: 60% 60% 60% 60%;
+    transform: rotate(30deg);
+    left: 272px;
+    top: 70px;
+}
+.sochok{
+    animation-name: appear;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    position: absolute;
+    width: 50px;
+    height: 42px;
+    background-color: #FC4F5C;
+    border-radius: 50% 50% 0% 50%;
+    transform: rotate(13deg);
+    left: 15px;
+    top: -60px;
+    box-shadow: inset 20px 0 30px rgba(0,0,0,0.2);
+}
+.sochok2{
+    animation-name: appear;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    position: absolute;
+    width: 50px;
+    height: 42px;
+    background-color: #FC4F5C;
+    border-radius: 50% 50% 0% 50%;
+    transform: rotate(50deg);
+    left: 180px;
+    top: -60px;
+    box-shadow: inset 20px 0 30px rgba(0,0,0,0.2);
+}
+.sochok3{
+    animation-name: appear;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    position: absolute;
+    width: 50px;
+    height: 42px;
+    background-color: #FC4F5C;
+    border-radius: 50% 50% 0% 50%;
+    transform: rotate(80deg);
+    left: 350px;
+    top: -60px;
+    box-shadow: inset 20px 0 30px rgba(0,0,0,0.2);
+}
+@keyframes appear {
+    0%{
+    opacity: 0;
+}
+100%
+{
+    opacity: 100;
+}
+}
